@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110552" started-at="2021-05-23T17:27:46Z" finished-at="2021-05-23T17:29:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="110552" started-at="2021-05-23T17:27:46Z" finished-at="2021-05-23T17:29:36Z">
+      <class name="intellect.TestCase">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:intellect.TestCase@3ba9ad43]" name="beforeSuite" is-config="true" duration-ms="843" started-at="2021-05-23T22:57:45Z" finished-at="2021-05-23T22:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:intellect.TestCase@3ba9ad43]" name="setData" is-config="true" duration-ms="0" started-at="2021-05-23T22:57:46Z" finished-at="2021-05-23T22:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:intellect.TestCase@3ba9ad43]" name="beforeClass" is-config="true" duration-ms="2" started-at="2021-05-23T22:57:46Z" finished-at="2021-05-23T22:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:intellect.TestCase@3ba9ad43]" name="beforeMethod" is-config="true" duration-ms="15215" started-at="2021-05-23T22:57:49Z" finished-at="2021-05-23T22:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectFlight(java.lang.String, java.lang.String)[pri:0, instance:intellect.TestCase@3ba9ad43]" name="selectFlight" duration-ms="90574" started-at="2021-05-23T22:58:04Z" data-provider="fetchData" finished-at="2021-05-23T22:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlight -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:intellect.TestCase@3ba9ad43]" name="afterMethod" is-config="true" duration-ms="2069" started-at="2021-05-23T22:59:34Z" finished-at="2021-05-23T22:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:intellect.TestCase@3ba9ad43]" name="afterSuite" is-config="true" duration-ms="1839" started-at="2021-05-23T22:59:37Z" finished-at="2021-05-23T22:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- intellect.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
